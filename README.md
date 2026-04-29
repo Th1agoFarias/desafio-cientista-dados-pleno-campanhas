@@ -108,7 +108,7 @@ O arquivo `outputs/top2_por_cpf.parquet` é gerado automaticamente ao final da e
 
 ---
 
-## Decisões de Design
+## Decisões
 
 **Por que inner join no merge?**
 Disparos sem telefone na dimensão não têm sistema de origem rastreável. Mantê-los adicionaria ruído sem valor preditivo para o score.
