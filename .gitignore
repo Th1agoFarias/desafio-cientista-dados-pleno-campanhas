@@ -1,0 +1,26 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados (baixar do GCS)
+data/
+*.parquet
+
+# Outputs gerados
+outputs/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
